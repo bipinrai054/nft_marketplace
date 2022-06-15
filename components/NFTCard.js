@@ -5,6 +5,9 @@ import {COLORS,SIZES,SHADOWS,assets} from '../constants'
 
 import { CircleButton, RectangleButton } from './Button'
 
+import { SubInfo, EthPrice, NFTTitle } from './SubInfo'
+
+
 const NFTCard = ({data}) => {
 
   const navigation = useNavigation()
@@ -39,7 +42,8 @@ const NFTCard = ({data}) => {
 
       </View>
 
-        <Text>tet</Text>
+      <SubInfo  />            
+
     </View>
   )
 }
