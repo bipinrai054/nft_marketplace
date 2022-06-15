@@ -3,6 +3,9 @@ import {createStackNavigator} from '@react-navigation/stack';
 import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import {useFonts} from 'expo-font'
 
+import 'react-native-gesture-handler'
+
+
 import {Text} from 'react-native'
 
 // screens
